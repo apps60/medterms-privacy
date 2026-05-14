@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<title>MedTerms — Privacy Policy / Gizlilik Politikası</title>
+<style>
+  :root {
+    --teal: #0891B2;
+    --teal-dark: #0E7490;
+    --teal-soft: #E0F7FA;
+    --ink: #1F2937;
+    --ink-soft: #4B5563;
+    --muted: #6B7280;
+    --line: #E5E7EB;
+    --paper: #FFFFFF;
+    --bg: #F9FAFB;
+    --warn-bg: #FEF3C7;
+    --warn-border: #F59E0B;
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+
+  header.brand {
+    text-align: center;
+    padding: 16px 0 24px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 24px;
+  }
+
+  header.brand .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--teal);
+    letter-spacing: -0.01em;
+  }
+
+  header.brand .logo .dot {
+    width: 10px;
+    height: 10px;
+    background: var(--teal);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  header.brand .tagline {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .lang-tabs {
+    display: flex;
+    gap: 0;
+    margin: 0 auto 28px;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 4px;
+    max-width: 280px;
+  }
+
+  .lang-tab {
+    flex: 1;
+    padding: 8px 14px;
+    border: 0;
+    background: transparent;
+    color: var(--ink-soft);
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+    font-family: inherit;
+  }
+
+  .lang-tab.active {
+    background: var(--teal);
+    color: white;
+  }
+
+  .lang-tab:not(.active):hover {
+    background: var(--teal-soft);
+    color: var(--teal-dark);
+  }
+
+  .content { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 32px 28px; }
+
+  h1 {
+    font-size: 26px;
+    color: var(--teal-dark);
+    margin: 0 0 8px;
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-size: 18px;
+    color: var(--teal-dark);
+    margin: 32px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--teal-soft);
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-size: 15px;
+    color: var(--ink);
+    margin: 20px 0 8px;
+    font-weight: 700;
+  }
+
+  p { margin: 10px 0; color: var(--ink-soft); }
+
+  ul, ol { color: var(--ink-soft); padding-left: 22px; }
+  li { margin: 6px 0; }
+
+  strong { color: var(--ink); }
+
+  code {
+    background: var(--teal-soft);
+    color: var(--teal-dark);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  }
+
+  a { color: var(--teal); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0;
+    font-size: 14px;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--line);
+    vertical-align: top;
+  }
+
+  th {
+    background: var(--teal-soft);
+    color: var(--teal-dark);
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  td:first-child { font-weight: 600; color: var(--ink); width: 30%; }
+
+  .meta {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 4px;
+  }
+
+  .effective {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+
+  .callout {
+    background: var(--teal-soft);
+    border-left: 3px solid var(--teal);
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin: 18px 0;
+    color: var(--teal-dark);
+    font-size: 14px;
+  }
+
+  .disclaimer {
+    background: var(--warn-bg);
+    border-left: 3px solid var(--warn-border);
+    padding: 14px 16px;
+    border-radius: 6px;
+    margin: 18px 0;
+    color: #78350F;
+    font-size: 14px;
+  }
+
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+    margin-top: 28px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+
+  footer p { margin: 4px 0; color: var(--muted); }
+
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+
+  @media (max-width: 600px) {
+    .wrap { padding: 20px 14px 60px; }
+    .content { padding: 22px 18px; border-radius: 10px; }
+    h1 { font-size: 22px; }
+    h2 { font-size: 16px; }
+    table { font-size: 13px; }
+    th, td { padding: 8px 8px; }
+    td:first-child { width: 38%; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="brand">
+    <div class="logo"><span class="dot"></span> MedTerms</div>
+    <div class="tagline">Medical Terminology Reference · Tıp Terminolojisi Referansı</div>
+  </header>
+
+  <nav class="lang-tabs" role="tablist" aria-label="Language">
+    <button class="lang-tab active" data-lang="tr" role="tab" aria-selected="true">Türkçe</button>
+    <button class="lang-tab" data-lang="en" role="tab" aria-selected="false">English</button>
+  </nav>
+
+  <main class="content">
+
+    <!-- ============================================== -->
+    <!--                    TÜRKÇE                      -->
+    <!-- ============================================== -->
+    <section class="lang-section active" id="lang-tr" lang="tr">
+
+      <h1>Gizlilik Politikası</h1>
+      <p class="effective">Yürürlük tarihi: 14 Mayıs 2026</p>
+
+      <div class="callout">
+        <strong>Kısaca:</strong> Hesap oluşturmak isteğe bağlıdır. Hesap açarsanız e-posta adresinizi
+        ve çalışma ilerlemenizi tutarız. Uygulamayı geliştirmek için anonim kullanım analitiği
+        toplanır; bunlar sizin kimliğinizle ilişkilendirilmez. Reklam yoktur. Hesabınızı uygulamadan
+        kalıcı olarak silebilirsiniz.
+      </div>
+
+      <h2>1. Genel Bakış</h2>
+      <p>
+        MedTerms (bundan sonra "Uygulama"), tıp öğrencileri, sağlık çalışanları ve TUS adayları
+        için anatomi, hastalıklar, ICD-11 kodları ve genel tıp terminolojisi içeren bir referans
+        uygulamasıdır. Uygulama, minimum veri ilkesi ile çalışır: yalnızca özellik için zorunlu
+        veriler işlenir, reklam veya satış amacıyla veri toplanmaz.
+      </p>
+      <p>
+        Bu politika, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK), Avrupa Birliği Genel
+        Veri Koruma Tüzüğü (GDPR), ABD COPPA mevzuatı ve Apple App Store gizlilik gereksinimleri
+        ile uyumludur.
+      </p>
+
+      <h2>2. Topladığımız Veri</h2>
+      <p>
+        Aşağıdaki tablo işlenen tüm veri kategorilerini özetler. Hesap oluşturmayan ziyaretçi
+        kullanıcılar için yalnızca cihaz üzerinde tutulan veriler ve isteğe bağlı anonim analitik
+        geçerlidir.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Veri</th>
+            <th>Amaç</th>
+            <th>Nerede</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>E-posta adresi</td>
+            <td>Hesap oluşturma, oturum açma, şifre sıfırlama</td>
+            <td>Firebase Authentication (Google Cloud, AB/ABD)</td>
+          </tr>
+          <tr>
+            <td>Çalışma ilerlemesi (skor, seri, kart durumu)</td>
+            <td>Cihazlar arası senkronizasyon (yalnız oturum açan kullanıcılar)</td>
+            <td>Firebase Realtime Database (Google Cloud, AB/ABD)</td>
+          </tr>
+          <tr>
+            <td>Anonim olay/oturum verisi</td>
+            <td>Hata izleme, ürün iyileştirme — kimlikle ilişkilendirilmez</td>
+            <td>PostHog Analytics (AB sunucusu)</td>
+          </tr>
+          <tr>
+            <td>Abonelik durumu</td>
+            <td>Premium hak sahipliği doğrulaması</td>
+            <td>RevenueCat (anonim kullanıcı id'si)</td>
+          </tr>
+          <tr>
+            <td>Flashcard ilerlemesi, ayarlar, tercihler</td>
+            <td>Hesapsız kullanım için yerel kaynak</td>
+            <td>Yalnız cihaz (AsyncStorage)</td>
+          </tr>
+          <tr>
+            <td>Bildirim izni durumu</td>
+            <td>Günlük çalışma hatırlatıcısı</td>
+            <td>Yalnız cihaz (iOS sistem)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Tıbbi/sağlık verisi, biyometrik veri, GPS konumu, IDFA/reklam kimliği, kişiler, fotoğraflar
+        veya başka bir hassas veri kategorisi <strong>toplanmaz</strong>.
+      </p>
+
+      <h2>3. Üçüncü Taraf Hizmetler</h2>
+      <p>
+        Uygulama yalnızca aşağıdaki temel servisleri kullanır. Her birinin kendi gizlilik politikası
+        geçerlidir.
+      </p>
+      <ul>
+        <li><strong>Firebase Authentication & Realtime Database</strong> (Google) — hesap ve veri
+          senkronizasyonu için. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Politika</a></li>
+        <li><strong>PostHog Analytics</strong> — anonim ürün analitiği için. IDFA okumaz, anonim
+          oturum kimliği kullanılır. <a href="https://posthog.com/privacy" target="_blank" rel="noopener">Politika</a></li>
+        <li><strong>RevenueCat</strong> — abonelik durumu doğrulaması için. App Store satın alma
+          token'ı ile çalışır, kişisel veri gerektirmez. <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">Politika</a></li>
+        <li><strong>Apple Push Notification Service (APNs)</strong> — yalnız kullanıcı izin verirse,
+          günlük çalışma hatırlatıcısı için. Bildirim içeriği kişisel veri içermez.</li>
+      </ul>
+
+      <h2>4. Veri Kaynakları (Atıflar)</h2>
+      <p>
+        Uygulamadaki terim, tanım ve sınıflandırmalar aşağıdaki açık kaynaklardan derlenmiştir:
+      </p>
+      <ul>
+        <li><strong>WHO ICD-11</strong> — Uluslararası Hastalık Sınıflandırması, T.C. Sağlık
+          Bakanlığı resmi Türkçe çevirisi dahil. WHO açık lisans koşulları altında.</li>
+        <li><strong>MeSH</strong> — ABD Ulusal Tıp Kütüphanesi, kamu malı.</li>
+        <li><strong>Terminologia Anatomica</strong> — uluslararası anatomi adlandırma standardı.</li>
+        <li><strong>Sentetik Türkçe tanımlar</strong> — tıbbi amaçlar için eğitilmiş bir dil
+          modeli ile tıp eğitimi yönlendirmesi altında üretilmiştir. İçerik akademik kaynaklarla
+          doğrulanmalıdır.</li>
+      </ul>
+
+      <h2>5. Veri Silme ve Hesap Silme</h2>
+      <p>
+        Apple App Store Yönergesi 5.1.1(v) uyarınca, hesabınızı uygulama içinden kalıcı olarak
+        silebilirsiniz: <em>Profil &rarr; Hesabımı Sil</em>. Bu işlem:
+      </p>
+      <ul>
+        <li>Firebase Authentication kayıtınızı siler — e-posta artık kullanılamaz.</li>
+        <li>Realtime Database'deki kullanıcı kaydı, yasal/audit gereklilikleri için sınırlı süre
+          (en fazla 30 gün) işaretli halde tutulur, ardından kalıcı olarak silinir.</li>
+        <li>Cihazınızdaki yerel veriyi (ayarlar, ilerleme, listeler) tamamen temizler.</li>
+      </ul>
+      <p>
+        Hesap açmamış kullanıcılar yerel veriyi <em>Ayarlar &rarr; Tüm Verileri Sıfırla</em> ile
+        veya iOS'ta uygulamayı silerek temizleyebilir.
+      </p>
+
+      <h2>6. KVKK Uyarınca Haklarınız (Türkiye)</h2>
+      <p>
+        6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında erişim, düzeltme, silme, işlemenin
+        sınırlandırılması ve veri taşınabilirliği haklarına sahipsiniz.
+      </p>
+      <p>
+        <strong>Veri Sorumlusu:</strong> Mustafa Çakmak (bireysel geliştirici)<br>
+        <strong>İletişim:</strong> <a href="mailto:[E-POSTA ADRESİNİ BURAYA YAZ]">[E-POSTA ADRESİNİ BURAYA YAZ]</a>
+      </p>
+
+      <h2>7. GDPR Uyarınca Haklarınız (AB)</h2>
+      <p>
+        GDPR (Tüzük EU 2016/679) kapsamında erişim, düzeltme, silme, işlemeye itiraz ve veri
+        taşınabilirliği haklarına sahipsiniz. Çoğu hak, hesap silme akışı ile pratik olarak
+        karşılanır; yine de yukarıdaki adresten geliştiriciye yazabilirsiniz.
+      </p>
+      <p>
+        Solo geliştirici olarak resmi bir Veri Koruma Sorumlusu (DPO) atanmamıştır — GDPR md. 37
+        küçük ölçekli geliştiriciler için bunu zorunlu kılmaz.
+      </p>
+
+      <h2>8. Çocuklar (COPPA)</h2>
+      <p>
+        Uygulama 13 yaş altı kullanıcılardan bilinçli olarak veri toplamaz. App Store yaş
+        sınıflandırması 13+ olarak ayarlanmıştır. 13 yaş altı bir kullanıcının veri sağladığını
+        düşünüyorsanız iletişime geçin; veri kalıcı olarak silinir.
+      </p>
+
+      <h2>9. Yasal Sorumluluk Reddi</h2>
+      <div class="disclaimer">
+        <strong>Önemli:</strong> MedTerms bir <strong>eğitim ve referans aracıdır</strong>; tıbbi
+        tavsiye, tanı veya tedavi yerine geçmez. Sağlık durumunuzla ilgili kararlar için her zaman
+        yetkili bir sağlık çalışanına başvurun. Tanım metinleri tıbbi amaçlar için eğitilmiş bir
+        dil modeli ile üretildiğinden zaman zaman hata içerebilir — klinik karar için otorite
+        kaynaklarla doğrulayın.
+      </div>
+
+      <h2>10. Değişiklikler</h2>
+      <p>
+        Politikada değişiklik yaparsak, üstteki "Yürürlük tarihi" güncellenir. Önemli
+        değişikliklerde uygulamayı bir sonraki açışınızda kısa bir bildirim gösterebiliriz.
+      </p>
+
+      <h2>11. İletişim</h2>
+      <p>
+        <strong>Geliştirici:</strong> Mustafa Çakmak (mstf66x)<br>
+        <strong>E-posta:</strong> <a href="mailto:[E-POSTA ADRESİNİ BURAYA YAZ]">[E-POSTA ADRESİNİ BURAYA YAZ]</a><br>
+        <strong>Uygulama:</strong> MedTerms (Bundle ID: <code>com.med.terms</code>)
+      </p>
+
+    </section>
+
+    <!-- ============================================== -->
+    <!--                    ENGLISH                     -->
+    <!-- ============================================== -->
+    <section class="lang-section" id="lang-en" lang="en">
+
+      <h1>Privacy Policy</h1>
+      <p class="effective">Effective date: May 14, 2026</p>
+
+      <div class="callout">
+        <strong>In short:</strong> An account is optional. If you create one, we store your email
+        and study progress. Anonymous usage analytics help us improve the app and are not linked
+        to your identity. No ads. You can permanently delete your account from inside the app.
+      </div>
+
+      <h2>1. Overview</h2>
+      <p>
+        MedTerms (the "App") is a reference tool for medical students, healthcare professionals,
+        and exam candidates, covering anatomy, diseases, ICD-11 codes, and general medical
+        terminology. The App is designed around data minimization: only feature-critical data is
+        processed; nothing is collected for advertising or resale.
+      </p>
+      <p>
+        This policy is aligned with the EU General Data Protection Regulation (GDPR), the
+        Turkish Personal Data Protection Law (KVKK, Law No. 6698), the U.S. Children's Online
+        Privacy Protection Act (COPPA), and Apple App Store privacy requirements.
+      </p>
+
+      <h2>2. Data We Collect</h2>
+      <p>
+        The table below summarizes every category of data processed. Visitors who do not create
+        an account are only affected by the local-device storage row and the optional anonymous
+        analytics row.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Data</th>
+            <th>Purpose</th>
+            <th>Where</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Email address</td>
+            <td>Account creation, sign-in, password reset</td>
+            <td>Firebase Authentication (Google Cloud, EU/US)</td>
+          </tr>
+          <tr>
+            <td>Study progress (scores, streaks, card state)</td>
+            <td>Cross-device synchronization (signed-in users only)</td>
+            <td>Firebase Realtime Database (Google Cloud, EU/US)</td>
+          </tr>
+          <tr>
+            <td>Anonymous event/session data</td>
+            <td>Bug tracking, product improvement — not linked to identity</td>
+            <td>PostHog Analytics (EU servers)</td>
+          </tr>
+          <tr>
+            <td>Subscription state</td>
+            <td>Premium entitlement verification</td>
+            <td>RevenueCat (anonymous user id)</td>
+          </tr>
+          <tr>
+            <td>Flashcard progress, settings, preferences</td>
+            <td>Source of truth for accountless use</td>
+            <td>Device only (AsyncStorage)</td>
+          </tr>
+          <tr>
+            <td>Notification permission state</td>
+            <td>Daily study reminder</td>
+            <td>Device only (iOS system)</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Medical/health data, biometric data, GPS location, IDFA/advertising ID, contacts, photos,
+        and other sensitive categories are <strong>not collected</strong>.
+      </p>
+
+      <h2>3. Third-Party Services</h2>
+      <p>
+        The App uses only the following core services. Each has its own privacy policy.
+      </p>
+      <ul>
+        <li><strong>Firebase Authentication & Realtime Database</strong> (Google) — account and
+          data sync. <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Policy</a></li>
+        <li><strong>PostHog Analytics</strong> — anonymous product analytics. Does not read IDFA;
+          uses an anonymous session id. <a href="https://posthog.com/privacy" target="_blank" rel="noopener">Policy</a></li>
+        <li><strong>RevenueCat</strong> — subscription state verification. Works with the App
+          Store purchase token, no personal data required. <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">Policy</a></li>
+        <li><strong>Apple Push Notification Service (APNs)</strong> — only with user permission,
+          for the daily study reminder. Notification payloads contain no personal data.</li>
+      </ul>
+
+      <h2>4. Data Sources (Attributions)</h2>
+      <p>
+        The terms, definitions, and classifications in the App are compiled from the following
+        open sources:
+      </p>
+      <ul>
+        <li><strong>WHO ICD-11</strong> — International Classification of Diseases, including
+          the official Turkish translation by the Turkish Ministry of Health, used under WHO
+          open license terms.</li>
+        <li><strong>MeSH</strong> — U.S. National Library of Medicine, public domain.</li>
+        <li><strong>Terminologia Anatomica</strong> — international anatomy naming standard.</li>
+        <li><strong>Synthetic Turkish definitions</strong> — produced under medical-education
+          guidance with the help of a language model trained for medical purposes. Content
+          should be verified against authoritative academic sources.</li>
+      </ul>
+
+      <h2>5. Data Deletion and Account Deletion</h2>
+      <p>
+        In compliance with Apple App Store Guideline 5.1.1(v), you can permanently delete your
+        account from inside the App: <em>Profile &rarr; Delete My Account</em>. This action:
+      </p>
+      <ul>
+        <li>Deletes your Firebase Authentication record — the email can no longer be used.</li>
+        <li>Marks your Realtime Database record as deleted; retained briefly for legal/audit
+          obligations (max 30 days), then permanently removed.</li>
+        <li>Wipes local device data (settings, progress, lists).</li>
+      </ul>
+      <p>
+        Users without an account can clear local data via <em>Settings &rarr; Reset All Data</em>
+        or by deleting the App from iOS.
+      </p>
+
+      <h2>6. Your Rights Under KVKK (Turkey)</h2>
+      <p>
+        Under Turkish Personal Data Protection Law No. 6698 you have rights of access,
+        rectification, erasure, restriction of processing, and data portability.
+      </p>
+      <p>
+        <strong>Data Controller:</strong> Mustafa Çakmak (individual developer)<br>
+        <strong>Contact:</strong> <a href="mailto:[E-POSTA ADRESİNİ BURAYA YAZ]">[E-POSTA ADRESİNİ BURAYA YAZ]</a>
+      </p>
+
+      <h2>7. Your Rights Under GDPR (EU)</h2>
+      <p>
+        Under GDPR (Regulation EU 2016/679) you have rights of access, rectification, erasure,
+        objection to processing, and data portability. Most rights are satisfied in practice
+        by the account-deletion flow; you may also contact the developer directly via the email
+        above.
+      </p>
+      <p>
+        As a solo developer, no formal Data Protection Officer (DPO) has been appointed — GDPR
+        Art. 37 does not require one for small-scale developers.
+      </p>
+
+      <h2>8. Children (COPPA)</h2>
+      <p>
+        The App does not knowingly collect data from users under the age of 13. The App Store
+        age rating is set to 13+. If you believe a child under 13 has provided data, please
+        contact us and the data will be permanently deleted.
+      </p>
+
+      <h2>9. Medical Disclaimer</h2>
+      <div class="disclaimer">
+        <strong>Important:</strong> MedTerms is an <strong>educational and reference tool</strong>;
+        it is not a substitute for medical advice, diagnosis, or treatment. Always consult a
+        qualified healthcare professional for decisions about your health. Definition texts are
+        produced with the help of a language model trained for medical purposes and may contain
+        errors — verify against authoritative sources before clinical use.
+      </div>
+
+      <h2>10. Changes</h2>
+      <p>
+        If we make changes to this policy, the "Effective date" at the top will be updated. For
+        significant changes, we may show a brief notice the next time you open the App.
+      </p>
+
+      <h2>11. Contact</h2>
+      <p>
+        <strong>Developer:</strong> Mustafa Çakmak (mstf66x)<br>
+        <strong>Email:</strong> <a href="mailto:[E-POSTA ADRESİNİ BURAYA YAZ]">[E-POSTA ADRESİNİ BURAYA YAZ]</a><br>
+        <strong>App:</strong> MedTerms (Bundle ID: <code>com.med.terms</code>)
+      </p>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Son güncelleme · Last updated: 2026-05-14</p>
+    <p>&copy; 2026 Mustafa Çakmak · MedTerms. All rights reserved.</p>
+  </footer>
+
+</div>
+
+<script>
+  (function () {
+    var tabs = document.querySelectorAll('.lang-tab');
+    var sections = document.querySelectorAll('.lang-section');
+
+    function setLang(lang) {
+      tabs.forEach(function (t) {
+        var on = t.getAttribute('data-lang') === lang;
+        t.classList.toggle('active', on);
+        t.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      sections.forEach(function (s) {
+        s.classList.toggle('active', s.id === 'lang-' + lang);
+      });
+      document.documentElement.setAttribute('lang', lang);
+      try { localStorage.setItem('medterms-privacy-lang', lang); } catch (e) {}
+    }
+
+    tabs.forEach(function (t) {
+      t.addEventListener('click', function () { setLang(t.getAttribute('data-lang')); });
+    });
+
+    var initial = 'tr';
+    try {
+      var saved = localStorage.getItem('medterms-privacy-lang');
+      if (saved === 'tr' || saved === 'en') {
+        initial = saved;
+      } else if ((navigator.language || '').toLowerCase().indexOf('tr') !== 0) {
+        initial = 'en';
+      }
+    } catch (e) {}
+    setLang(initial);
+  })();
+</script>
+
+</body>
+</html>
